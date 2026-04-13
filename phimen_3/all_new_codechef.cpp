@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int X, Y;
+    cin >> X >> Y;
+
+    if (X < Y) {
+        cout << "Old" << endl;
+    } else if (Y < X) {
+        cout << "New" << endl;
+    } else {
+        cout << "Same" << endl;
+    }
+
+    return 0;
+}
